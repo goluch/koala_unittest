@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{42a2034c-7f91-4300-8602-3b8a3e1fa522}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\base_unittest">
+      <UniqueIdentifier>{3679b4c2-6db9-464e-b53c-70710ac0a0de}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\classes_unittest">
+      <UniqueIdentifier>{bc6de3c7-3838-4c2c-bbac-585aa84399ed}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\container_unittest">
+      <UniqueIdentifier>{112299fd-3b45-4406-9ae8-a97144f56647}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\graph_unittest">
+      <UniqueIdentifier>{0d4bf928-4e3a-47d5-9c39-4e206788308d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\io_unittest">
+      <UniqueIdentifier>{0382cdc4-3dc4-4bd2-b17c-57b4a3d23488}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\tinyxml_unittest">
+      <UniqueIdentifier>{acd29e59-787a-4963-8e36-7fa9394a0522}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\algorithm">
+      <UniqueIdentifier>{43a462b3-4480-4ffc-a94f-3e06cd2aaedf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\algorithm\coloring_unittest">
+      <UniqueIdentifier>{88696b2a-860d-4abf-8544-a395c848bdea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\algorithm\coloring_unittest\vertex coloring_unittest">
+      <UniqueIdentifier>{5116b8c0-2c36-4e77-9ffa-008fb3c25328}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="graph_unittest.cpp">
+      <Filter>Source Files\graph_unittest</Filter>
+    </ClCompile>
+    <ClCompile Include="assocarray_unittest.cpp">
+      <Filter>Source Files\container_unittest</Filter>
+    </ClCompile>
+    <ClCompile Include="assocmatrix_unittest.cpp">
+      <Filter>Source Files\container_unittest</Filter>
+    </ClCompile>
+    <ClCompile Include="heap_unittest.cpp">
+      <Filter>Source Files\container_unittest</Filter>
+    </ClCompile>
+    <ClCompile Include="set_unittest.cpp">
+      <Filter>Source Files\container_unittest</Filter>
+    </ClCompile>
+    <ClCompile Include="brooks_unittest.cpp">
+      <Filter>Source Files\algorithm\coloring_unittest\vertex coloring_unittest</Filter>
+    </ClCompile>
+    <ClCompile Include="greedy_unittest.cpp">
+      <Filter>Source Files\algorithm\coloring_unittest\vertex coloring_unittest</Filter>
+    </ClCompile>
+    <ClCompile Include="interval_unittest.cpp">
+      <Filter>Source Files\algorithm\coloring_unittest\vertex coloring_unittest</Filter>
+    </ClCompile>
+    <ClCompile Include="mis_unittest.cpp">
+      <Filter>Source Files\algorithm\coloring_unittest\vertex coloring_unittest</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

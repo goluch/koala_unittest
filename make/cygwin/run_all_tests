@@ -1,0 +1,4 @@
+#!/bin/bash
+./assocarray_unittest.exe
+./assocmatrix_unittest.exe
+./assocTabConstInterface_unittest.exe
